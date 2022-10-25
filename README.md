@@ -10,15 +10,24 @@ As a student who has enrolled in Iowa State University, choosing a house that me
 
 ## Brief summary of your analysis
 
-1. Understanding of Columns/Features
-2. Correlation of Features with Sales Price
-3. Selecting of Models, Tuning of Models
-4. Model Production and Insights
+1a_EDA (train set): Understanding and Cleaning Up of Train Set
+   - Cleaning of data
+
+1b_EDA (test set): Understanding and Cleaning Up of Test Set
+   - Cleaning of data
+
+2_Preprocessing_Model_Kaggle Submission
+   - Encode data, Scale Data
+   - Train Data
+   - Models: Linear Regression, Lasso, Ridge
+   - Conclude Model to be used
+   - Conclusions and Recommendations
 
 
 ## Conclusions/recommendations
-
 The model could be used to provide students some insights to help them choose an ideal house within their limited budgets.
 With the model, students can decide which features to prioritise and spend their budget on. 
 
-For example, students would be able to understand how the choice of each neighbourhood affects the price. 
+For example, gr_liv_area (Above Ground Living Area) affects Sale Price greatly. Holding everything else constant, every unit increase in Above Ground Living Area, increases Sale Price by 28263.87. A student would have to consider if Above Ground Living Area is critical enough for them to pay this much.
+
+Similarly, a student with tight budget might want to choose to stay in Edwards as it affects Sale Price negatively (holding all other features constant).
