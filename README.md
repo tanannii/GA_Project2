@@ -3,6 +3,7 @@
 **Overview:**
 Ames is centrally located in the heart of Midwest and lowa. It also houses the world-renowned lowa State University. Iowa State University of Science and Technology's ranking in the 2022-2023 edition of Best Colleges is National Universities, #127.
 
+Houses Prices are affected by many factors. It is hard to identify and understand how much factor willl influence Sale Price more than another factor. Everyone has a budget, but the issue is about maximising what is important based on your budget. 
 
 ## The Problem Statement
 
