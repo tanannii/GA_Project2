@@ -49,3 +49,15 @@ Top 10 Features that positively affect Sale Price:
 
 
 Top 10 Features that negatively affect Sale Price:
+|       Features       |                     Features Descriptions                    | Coefficients |
+|:--------------------:|:------------------------------------------------------------:|:------------:|
+|   ms_zoning_C (all)  |     General zoning classification of the sale: Commercial    | -7134.645512 |
+|  neighborhood_NWAmes |                        Northwest Ames                        | -7447.899266 |
+|  condition_1_Artery  | Proximity to various conditions: Adjacent to arterial street | -7598.496644 |
+|    garage_qual_TA    |                Garage quality: Typical/Average               | -7607.950064 |
+| neighborhood_CollgCr |                         College Creek                        | -8449.340964 |
+| neighborhood_SawyerW |                          Sawyer West                         | -8840.947331 |
+| neighborhood_Gilbert |                            Gilbert                           | -9232.093887 |
+|     sale_type_COD    |            Type of sale: Court Officer Deed/Estate           | -9543.284024 |
+| neighborhood_Edwards |                            Edwards                           | -9548.504447 |
+|  roof_style_Mansard  |                     Type of roof: Mansard                    | -9975.944202 |
